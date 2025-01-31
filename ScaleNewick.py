@@ -9,6 +9,10 @@ f = open(file_name, "r")
 string = f.read()
 f.close()
 
+
+
+string = string.replace(" ", "")
+
 new_tree = ""
 temp = ""
 branch_sum = 0.0
